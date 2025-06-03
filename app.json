@@ -30,6 +30,9 @@
         "projectId": "f9771151-6433-4e49-add2-c518e6bb3e86"
       }
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "owner": "bishalmaka"
   }
 }
