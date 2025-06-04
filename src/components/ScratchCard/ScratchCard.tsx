@@ -7,11 +7,9 @@ import {ScratchCardProps} from './types';
 
 import {useStyles} from './styles';
 
-
 interface Props extends ScratchCardProps {
     width?: number;
     height?: number;
-    threshold?: number;
     positionName: string;
 }
 

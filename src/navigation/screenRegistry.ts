@@ -9,15 +9,15 @@ type Screen = {
 };
 
 export const screens: Record<string, Screen> = {
-    SkiaTest:{
+    SecretSurprise:{
         name:'Secret Surprise',
         component:SecretSurpriseScreen,
         title:'Secret Surprise',
     },
-    Test: {
-        name: 'Truth Or Dare',
+    DareMeBaby: {
+        name: 'Dare Me Baby',
         component: TruthOrDareGameScreen,
-        title: 'Truth Or Dare',
+        title: 'Dare Me Baby',
     },
     // Add other screens here
 };

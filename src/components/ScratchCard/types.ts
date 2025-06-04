@@ -1,6 +1,6 @@
-export type LocalImageSource = number;
+import { ImageSourcePropType } from 'react-native';
 
 export interface ScratchCardProps {
-    foregroundImage: LocalImageSource;
-    backgroundImage: LocalImageSource;
+    foregroundImage: ImageSourcePropType;
+    backgroundImage: ImageSourcePropType;
 }

@@ -1,12 +1,12 @@
 import * as FileSystem from 'expo-file-system';
 import {Asset} from 'expo-asset';
 import {Skia, SkImage} from '@shopify/react-native-skia';
-import {LocalImageSource} from "@components/ScratchCard/types";
 import React from "react";
+import {ImageSourcePropType} from "react-native";
 
 export const useImageLoader = (
-    foregroundImage: LocalImageSource,
-    backgroundImage: LocalImageSource
+    foregroundImage: ImageSourcePropType,
+    backgroundImage: ImageSourcePropType
 ) => {
     const [foregroundSkImage, setForegroundSkImage] = React.useState<SkImage | null>(null);
     const [backgroundSkImage, setBackgroundSkImage] = React.useState<SkImage | null>(null);
@@ -24,8 +24,9 @@ export const useImageLoader = (
     return {foregroundSkImage, backgroundSkImage};
 };
 
-const loadLocalImage = async (source: LocalImageSource): Promise<SkImage | null> => {
+const loadLocalImage = async (source: ImageSourcePropType): Promise<SkImage | null> => {
     try {
+        // @ts-ignore
         const asset = Asset.fromModule(source);
         await asset.downloadAsync();
 

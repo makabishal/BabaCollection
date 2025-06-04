@@ -1,6 +1,7 @@
 import {useRef, useState} from 'react';
 import {GestureResponderEvent} from 'react-native';
 import {Skia} from '@shopify/react-native-skia';
+import * as Haptics from 'expo-haptics';
 
 export const useScratchPath = (canvasSize: { width: number; height: number }) => {
     const path = useRef(Skia.Path.Make());
@@ -66,7 +67,9 @@ export const useScratchPath = (canvasSize: { width: number; height: number }) =>
 
         if (roundedProgress >= 60 && !isScratched) {
             setIsScratched(true);
-        }
+            Haptics.notificationAsync(
+                Haptics.NotificationFeedbackType.Success
+            ).then(() => {})        }
     };
 
     const handleTouchEnd = () => {
