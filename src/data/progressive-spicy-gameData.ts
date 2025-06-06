@@ -1,0 +1,61 @@
+export const ProgressiveSpicyGameData: {
+    level: number;
+    question: string;
+    choices: [string, string];
+}[] = [
+    // 🌶️ Level 1: Tease & Tickle (1–15)
+    { level: 1, question: 'Forehead kiss or neck kiss?', choices: ['Forehead', 'Neck'] },
+    { level: 1, question: 'Hand massage or back rub?', choices: ['Hand massage', 'Back rub'] },
+    { level: 1, question: 'Stare into eyes or hold hands for 1 min?', choices: ['Eye contact', 'Hold hands'] },
+    { level: 1, question: 'Whisper something sweet or something naughty?', choices: ['Sweet', 'Naughty'] },
+    { level: 1, question: 'Brush lips or tease with breath?', choices: ['Brush lips', 'Breath tease'] },
+    { level: 1, question: 'Butterfly kisses or Eskimo kisses?', choices: ['Butterfly', 'Eskimo'] },
+    { level: 1, question: 'Dance slowly or cuddle quietly?', choices: ['Dance', 'Cuddle'] },
+    { level: 1, question: 'Play with my hair or trace my spine?', choices: ['Hair', 'Spine'] },
+    { level: 1, question: 'Feed me dessert or lick it off my finger?', choices: ['Feed dessert', 'Lick finger'] },
+    { level: 1, question: 'Tease with feather or ice cube?', choices: ['Feather', 'Ice cube'] },
+    { level: 1, question: 'Make me blush or make me giggle?', choices: ['Blush', 'Giggle'] },
+    { level: 1, question: 'Wear my shirt or cuddle shirtless?', choices: ['Wear shirt', 'Shirtless cuddle'] },
+    { level: 1, question: 'Tickle you gently or trace your lips?', choices: ['Tickle', 'Trace lips'] },
+    { level: 1, question: 'Touch under the table or secret wink?', choices: ['Touch', 'Wink'] },
+    { level: 1, question: 'Soft kisses or long hugs?', choices: ['Kisses', 'Hugs'] },
+
+    // 🔥🔥 Level 2: Build the Heat (16–35)
+    { level: 2, question: 'Slow kiss or nibble earlobe?', choices: ['Slow kiss', 'Earlobe nibble'] },
+    { level: 2, question: 'Trace my lips or bite them?', choices: ['Trace', 'Bite'] },
+    { level: 2, question: 'Blindfold me or tie my hands?', choices: ['Blindfold', 'Tie hands'] },
+    { level: 2, question: 'Kiss my neck or whisper your fantasy?', choices: ['Kiss neck', 'Whisper fantasy'] },
+    { level: 2, question: 'Lick chocolate or ice cream off me?', choices: ['Chocolate', 'Ice cream'] },
+    { level: 2, question: 'Body shots or strip tease?', choices: ['Body shots', 'Strip tease'] },
+    { level: 2, question: 'Make out standing or lying down?', choices: ['Standing', 'Lying down'] },
+    { level: 2, question: 'Touch my chest or tease my thighs?', choices: ['Chest', 'Thighs'] },
+    { level: 2, question: 'Suck on my finger or let me suck yours?', choices: ['Suck mine', 'You suck mine'] },
+    { level: 2, question: 'Undress me slowly or tease every inch?', choices: ['Undress', 'Tease'] },
+    { level: 2, question: 'Straddle me or let me pin you?', choices: ['Straddle', 'Get pinned'] },
+    { level: 2, question: 'Roleplay tonight or blindfold & surprise?', choices: ['Roleplay', 'Blindfold'] },
+    { level: 2, question: 'Kiss down my chest or up my thighs?', choices: ['Down chest', 'Up thighs'] },
+    { level: 2, question: 'Spank me lightly or bite my shoulder?', choices: ['Spank', 'Bite'] },
+    { level: 2, question: 'Scented oil massage or tongue tracing?', choices: ['Massage', 'Tongue'] },
+    { level: 2, question: 'Shower together or dry off each other?', choices: ['Shower', 'Dry together'] },
+    { level: 2, question: 'Leave on the lights or keep it dark?', choices: ['Lights on', 'Dark'] },
+    { level: 2, question: 'Silent teasing or dirty whispers?', choices: ['Silent', 'Whispers'] },
+    { level: 2, question: 'One long kiss or 10 fast kisses?', choices: ['One long', 'Ten fast'] },
+    { level: 2, question: 'Let me take control or guide me?', choices: ['Take control', 'Guide me'] },
+
+    // 🔥🔥🔥 Level 3: Go Wild (36–50)
+    { level: 3, question: 'Sit on your lap or grind on your thigh?', choices: ['Lap sit', 'Thigh grind'] },
+    { level: 3, question: 'Bite my lip or spank my ass?', choices: ['Bite', 'Spank'] },
+    { level: 3, question: 'Ride your face or be pinned down?', choices: ['Ride face', 'Pinned'] },
+    { level: 3, question: 'Use tongue or fingers first?', choices: ['Tongue', 'Fingers'] },
+    { level: 3, question: 'Finish on my chest or in my mouth?', choices: ['Chest', 'Mouth'] },
+    { level: 3, question: 'Quickie in the kitchen or slow burn in bed?', choices: ['Quickie', 'Slow burn'] },
+    { level: 3, question: 'Let you tie me up or blindfold me?', choices: ['Tie up', 'Blindfold'] },
+    { level: 3, question: 'Strip for you or get stripped by you?', choices: ['Strip', 'Get stripped'] },
+    { level: 3, question: 'Push you against the wall or on the table?', choices: ['Wall', 'Table'] },
+    { level: 3, question: 'Sneaky bathroom play or shower surprise?', choices: ['Bathroom', 'Shower'] },
+    { level: 3, question: 'Dominant or submissive tonight?', choices: ['Dominant', 'Submissive'] },
+    { level: 3, question: 'Tease with mouth or fingers only?', choices: ['Mouth', 'Fingers'] },
+    { level: 3, question: 'Lingerie on or completely naked?', choices: ['Lingerie', 'Naked'] },
+    { level: 3, question: 'Moan my name or make me beg?', choices: ['Moan', 'Beg'] },
+    { level: 3, question: 'Hands tied or legs spread?', choices: ['Tied hands', 'Spread legs'] },
+];

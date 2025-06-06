@@ -35,7 +35,8 @@
     ],
     "owner": "bishalmaka",
     "plugins": [
-      "expo-asset"
+      "expo-asset",
+      "expo-audio"
     ]
   }
 }

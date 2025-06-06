@@ -67,9 +67,7 @@ export const useScratchPath = (canvasSize: { width: number; height: number }) =>
 
         if (roundedProgress >= 60 && !isScratched) {
             setIsScratched(true);
-            Haptics.notificationAsync(
-                Haptics.NotificationFeedbackType.Success
-            ).then(() => {})        }
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).then(() => {})        }
     };
 
     const handleTouchEnd = () => {

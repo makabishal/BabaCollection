@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {Ionicons} from "@expo/vector-icons";
-import {dares, truths} from "../../data/truth-or-date-gameData";
+import {dares, truths} from "../../data/truth-or-dare-gameData";
 import Colors from "../../theme/colors";
 
 type SelectedCategory = 'truth' | 'dare' | null;

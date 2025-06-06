@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import HomeScreen from '../screens/HomeScreen';
 import * as ScreenRegistry from './screenRegistry';
 import Colors from "../theme/colors";
+import ThisOrThatTimerScreen from "@screens/ThisOrThat/ThisOrThatTimerScreen";
 
 const Stack = createStackNavigator();
 
@@ -23,7 +24,7 @@ const Navigation = () => {
                         color: Colors.title,
                         fontWeight: 'bold',
                     },
-                    headerShown:false,
+                    headerShown: false,
                     headerTintColor: Colors.title,
                     headerTransparent: true,
                     headerTitleAlign: 'center',
@@ -49,6 +50,25 @@ const Navigation = () => {
                         }}
                     />
                 ))}
+                <Stack.Screen
+                    name="ThisOrThatTimerScreen"
+                    component={ThisOrThatTimerScreen}
+                    options={{
+                        title:'This Or That',
+                        headerStyle: {
+                            elevation: 0,
+                            shadowOpacity: 0,
+                            backgroundColor: 'transparent',
+                        },
+                        headerTitleStyle: {
+                            color: Colors.title,
+                            fontWeight: 'bold',
+                        },
+                        headerTintColor: Colors.title,
+                        headerTransparent: true,
+                        headerTitleAlign: 'center'
+                    }}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
